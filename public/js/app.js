@@ -1,4 +1,4 @@
-console.log('Client side javascript is running.')
+
 
 //fetch the data from this website then run this function
 // fetch('http://puzzle.mead.io/puzzle').then((response) =>{

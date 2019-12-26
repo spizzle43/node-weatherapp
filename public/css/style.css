@@ -1,0 +1,60 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    columns: #888888;;
+    padding: 16px;
+    margin-top: 20px;
+    border: 1px solid #eeeeee;
+}
+
+header{
+    margin-top:16px ;
+    margin-bottom: 48px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+
+
+header a{
+    color: black;
+    margin-right: 16px;
+    text-decoration: none;
+    
+}
+
+.portrait{
+    width: 250px;
+}
+
+input{
+    border: 4px solid rgb(111,64,222);
+    padding: 10px;
+
+}
+
+/*cursor allows you to customize the appearance of the cursor when you are hovering over it */
+
+button{
+    cursor: pointer;
+    border: 4px solid rgb(111,64,222);
+    background: darkgrey;
+    color: white;
+    padding: 10px;
+}
